@@ -1,13 +1,15 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
+import React from "react";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar";
+import "./App.css";
+import Intro from "./components/intro";
 
 function App() {
   return (
-    <div className="App">
-
-      <h1 className="header">ergeargea</h1>
-     
-    </div>
+    <>
+     <Navbar/>
+    <Intro/></>
+  
   );
 }
 
