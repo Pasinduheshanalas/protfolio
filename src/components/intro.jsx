@@ -32,13 +32,13 @@ function Intro(){
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={Boy} alt="" />
+                
                 <div style={{top:'1%', left:'58%'}}>
                 <FloatingDiv image={Crown} txt1="Web" txt2="Development"/>
                 </div>
                 <div style={{top:'60%'}}>
-                <FloatingDiv image={Crown} txt1="Best Design" txt2="Award"/>
+                <FloatingDiv image={Thumbup} txt1="Best Design" txt2="Award"/>
                 </div>
-
             </div>
         </div>
     </div>
